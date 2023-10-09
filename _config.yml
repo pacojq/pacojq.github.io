@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Paco Juan"
+title                    : "this is PJ"
 title_separator          : "-"
 subtitle                 : "Video Game Programmer" # site tagline that appears below site title in masthead
 name                     : "Paco Juan Quirós"
@@ -120,6 +120,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/_thisIsPJ"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mastodon.gamedev.place/@thapj"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pacojq"
@@ -133,6 +136,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/_thisIsPJ"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mastodon.gamedev.place/@thapj"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/pacojq"
