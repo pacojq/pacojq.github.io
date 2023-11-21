@@ -69,7 +69,7 @@ Thus, my objectives with this project are the following:
   - **ECS**. Although I don't really want to deep dive on this one, I want Xaloc running
   with the closest I can get to an Entity-Component-System approach. [entt](https://github.com/skypjack/entt) 
   is a good starting point.
-  - **Multi-platform development.** Have Xaloc running in Windows, Linux and Mac. While I've got a bunch of experience in languages such as C#, Java of JavaSccript, they all have huge trait in common: they're platform-agnostic.
+  - **Multi-platform development.** Have Xaloc running in Windows, Linux and Mac. While I've got a bunch of experience in languages such as C#, Java of JavaScript, they all have huge trait in common: they're platform-agnostic.
   With Xaloc, I want to learn how to develop a native application which can run in different
   platforms.
   - **Rendering APIs.** I'm putting this one at the very end because it's maybe the most

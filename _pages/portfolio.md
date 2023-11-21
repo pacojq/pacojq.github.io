@@ -66,7 +66,7 @@ gallery-graphics:
     title: "Vulkan Renderer. Japanese mask by Romain Vaysse, under CC Attribution-NonCommercial license."
   - url: /assets/images/portfolio/roman-mosaic.png
     image_path: /assets/images/portfolio/roman-mosaic.png
-    title: "Roman mosaic. Splash screen for an unannounced video game."
+    title: "Roman mosaic. Early splash screen for Songs of Steel: Hispania."
   - url: /assets/images/portfolio/acorn.png
     image_path: /assets/images/portfolio/acorn.png
     title: "Screen capture of an RPG prototype with volumetric lighting."
@@ -129,7 +129,7 @@ For a detailed view of my professional experience, please refer to my <a href="h
 - **_Ignited Steel_ Toolset.** Multiple Unity extensions and custom tools for the development of the console versions of the game, including: 
   - A "sprite stack" mesh generator, which allows the preview and generation of sliced mesh assets from a given set of sprites,
   - A Localization Scanner, with the ability of checking the whole asset database looking for unlocalised UI elements or miss-configured font asset references.
-- **Strategy Game Toolset.** Designed and implemented multiple key tools in asset creation pipeline for unannounced narrative strategy game. Among them:
+- **_Songs of Steel: Hispania_ Toolset.** Designed and implemented multiple key tools in asset creation pipeline for _[Songs of Steel](https://store.steampowered.com/app/2603300/Songs_of_Steel_Hispania/)_, a narrative strategy game. Among them:
   - Node-based editor for Narrative Designers to structure both quests and dialogue assets in Unity,
   - In-engine hexagonal tilemap editor, allowing the modification of navmeshes, level terrain conditions, trigger areas and enemy spawn zones.
 - **Unity extensions.** Vast work in custom Unity tools and extensions for the Unity Editor, to deliver the best-fitting toolset for artists and designers' needs in each project.
@@ -144,6 +144,9 @@ A Narrative Engine for video games with parallel and open storytelling.
 Built as a core module in [_Project Attrah_](https://pacojq.github.io/games/attrah),
 its initial design and achitecture proposal was awarded [Most Innovative Cultural Project](https://www.culturaydeporte.gob.es/en/cultura/industriasculturales/mejores-proyectos/modernizacion-2019.html) 
 of the year by the Ministry of Culture and Sports.
+
+It has been used in the narrative strategy game _[Songs of Steel: Hispania](https://store.steampowered.com/app/2603300/Songs_of_Steel_Hispania/)_,
+as the core system to handle the story events of the campaign.
 
 ### Abstract
 
