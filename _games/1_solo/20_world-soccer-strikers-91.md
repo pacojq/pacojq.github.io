@@ -39,6 +39,10 @@ sidebar:
 ### Release information
 
  - **PC (Steam Early Access)**: Oct. 15, 2020.
+ - **Playstation 4**: Aug. 18, 2021.
+ - **Xbox One**: Aug. 18, 2021.
+ - **Xbox Series X|S**: Aug. 18, 2021.
+ - **Nintendo Switch**: Aug. 19, 2021.
 
 ### Collaboration
 
