@@ -1,0 +1,54 @@
+---
+title: games
+layout: default
+description: "here are all the games I've worked on"
+header-mask: 0.27
+---
+
+<!--
+Credits: this page shamelessly borrowed a lot from:
+https://github.com/kitian616/jekyll-TeXt-theme
+-->
+<!-- Page Header -->
+{% include intro-header.html type='page' short=false %}
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+			<!-- Selecting posts that have `override_post` defined and set to `game` -->
+			{%- assign _games = site.posts | where: "override_post", "game" -%}
+			{%- assign _games = _games | reverse -%}
+
+			<!-- Tags (as filter) -->
+			<div id='tag_cloud' class="tags tags-sup js-tags">
+				<a class="tag-button--all" data-encode="">
+					Show All
+					<sup>{{_games.size}}</sup>
+				</a>
+			</div>
+
+			<!-- Article List -->
+			<div class="mini-post-list a">
+				{%- for _project in _games -%}
+				<section>
+					<div class="post-preview item" >
+						<a href="{{ _project.url | prepend: site.baseurl }}">
+							<h2 class="post-title">
+								{{ _project.title }}
+							</h2>
+							{% if _project.description %}
+							<h3 class="post-subtitle">
+								{{ _project.description }}
+							</h3>
+							{% endif %}
+						</a>
+						<hr>
+					</div>
+				</section>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>

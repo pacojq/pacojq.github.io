@@ -1,19 +1,20 @@
 ---
+layout: post
 title: "Introducing Xaloc Engine"
+subtitle: "<i>Introducing Xaloc Engine: yet another 2D game engine developed in C++.</i>"
 permalink: /posts/introducing-xaloc-engine
 
 excerpt: "Introducing Xaloc Engine."
 
-header:
-  #image: /assets/images/posts/2020-02-05-hello-world/teaser.jpg
-  #teaser: /assets/images/posts/2020-02-05-hello-world/teaser.jpg
+header-img: "img/posts/2020-07-03-introducing-xaloc-engine/sandbox.png"
+header-mask: 0.7
+
 categories:
   - Devlog
 tags:
-  - Xaloc
-  - Game Engine
-  - Devlog
-  - Programming
+  - game-engine
+  - devlog
+  - programming
 ---
 
 > Introducing Xaloc Engine: yet another 2D game engine developed in C++.
@@ -21,7 +22,7 @@ tags:
 So, for the last two months I've been working on a small project in my spare ime, which
 is starting to look like an *actual thing*: the [**Xaloc game engine**](https://github.com/pacojq/Xaloc).
 
-![Screenshot of an example application built with Xaloc.](/assets/images/posts/2020-07-03-introducing-xaloc-engine/sandbox.png){: .align-center}
+![Screenshot of an example application built with Xaloc.](/img/posts/2020-07-03-introducing-xaloc-engine/sandbox.png){: .align-center}
 
 I've been toying around with the idea of developing my own engine for some time, mostly
 for learning porpuses. While I have some years of experience in developing video games,
@@ -131,7 +132,7 @@ As a result, Xaloc provides a very simple C# API -*extremely* simple in comparis
 native C++ API-, which allows transform manipulations and some operations with components.
 Here you can see an example of how to make a *two-minute* player controller in C#.
 
-![Programming player movement in C#.](/assets/images/posts/2020-07-03-introducing-xaloc-engine/csharp-demo.gif){: .align-center}
+![Programming player movement in C#.](/img/posts/2020-07-03-introducing-xaloc-engine/csharp-demo.gif){: .align-center}
 
 
 ## The Editor
@@ -145,7 +146,7 @@ These three things alone can already help a lot if you want to build a good-look
 Also, they provide enough content to attach to this post a beautiful screenshot of the 
 Xaloc Editor.
 
-![Screenshot the Xaloc editor with a simple sandbox game.](/assets/images/posts/2020-07-03-introducing-xaloc-engine/xaloc-editor.png){: .align-center}
+![Screenshot the Xaloc editor with a simple sandbox game.](/img/posts/2020-07-03-introducing-xaloc-engine/xaloc-editor.png){: .align-center}
 
 
 ## Future work

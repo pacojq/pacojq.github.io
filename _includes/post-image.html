@@ -1,0 +1,11 @@
+
+{% assign _src = include.src %}
+{% assign _description = include.description %}
+<div class="post-container" style="height:auto;">
+  <!--<div class="visible-md visible-lg">-->
+    <img src="{{ _src }}"/>
+    {% if _description %}
+    <small class="img-hint">{{ _description }}</small>
+    {% endif %}
+  <!--</div>-->
+</div>

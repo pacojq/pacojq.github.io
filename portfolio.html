@@ -1,0 +1,39 @@
+---
+layout: page
+title: portfolio
+description: ""
+permalink: /portfolio/
+header-img: "img/projects/pjrp/image_001_0000.png"
+header-mask: 0.12
+
+carousels:
+  - images:
+    - image: /img/projects/texwriter/example.png
+    - image: /img/projects/texwriter/noise.png
+  - images:
+    - image: /img/projects/xaloc/sandbox-editor.png
+    - image: /img/projects/xaloc/sandbox.png
+  - images:
+    - image: /img/portfolio/tools_chapter-editor.png
+    - image: /img/portfolio/tools_rosetta.png
+    - image: /img/portfolio/tools_dialogue-editor.png
+    - image: /img/portfolio/tools_ignited-font-scanner.png
+    - image: /img/portfolio/tools_map-editor.png
+    - image: /img/portfolio/tools_ignited-mesh-sandwitch.png
+  - images:
+    - image: /img/projects/path-tracer/out.png
+    - image: /img/games/deck-rx/GIF 29-10-2021 12-27-17.gif
+    - image: /img/portfolio/vulkan-renderer.png
+    - image: /img/portfolio/roman-mosaic.png
+    - image: /img/portfolio/acorn.png
+    - image: /img/games/deck-rx/tutorial.jpg
+    - image: /img/portfolio/custom-srp-01.jpg
+  - images:
+    - image: /img/portfolio/talk-devgamm.jpg
+    - image: /img/portfolio/talk-idd.jpg
+---
+
+<div class="post-container">
+  {% capture portfolio %}{% include portfolio.md %}{% endcapture %}
+  {{ portfolio | markdownify }}
+</div>

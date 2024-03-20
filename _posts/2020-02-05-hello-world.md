@@ -1,15 +1,14 @@
 ---
+layout: post
 title: "Hello World"
 
 header:
-  #image: /assets/images/posts/2020-02-05-hello-world/teaser.jpg
-  #teaser: /assets/images/posts/2020-02-05-hello-world/teaser.jpg
+  #image: /img/posts/2020-02-05-hello-world/teaser.jpg
+  #teaser: /img/posts/2020-02-05-hello-world/teaser.jpg
 categories:
   - Hello World
 tags:
-  - hello
-  - world
-  - other stuff
+  - hello-world
 ---
 
 Hello world!
