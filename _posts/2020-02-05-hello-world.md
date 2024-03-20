@@ -1,13 +1,10 @@
 ---
 layout: post
 title: "Hello World"
+subtitle: "this is a test post!"
+permalink: /hello-world
 post_type: "post"
 
-header:
-  #image: /img/posts/2020-02-05-hello-world/teaser.jpg
-  #teaser: /img/posts/2020-02-05-hello-world/teaser.jpg
-categories:
-  - Hello World
 tags:
   - hello-world
 ---

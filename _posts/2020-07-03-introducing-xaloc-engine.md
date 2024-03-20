@@ -2,16 +2,13 @@
 layout: post
 title: "Introducing Xaloc Engine"
 subtitle: "<i>Introducing Xaloc Engine: yet another 2D game engine developed in C++.</i>"
-permalink: /posts/introducing-xaloc-engine
 post_type: "post"
-
-excerpt: "Introducing Xaloc Engine."
 
 header-img: "img/posts/2020-07-03-introducing-xaloc-engine/sandbox.png"
 header-mask: 0.7
 
 categories:
-  - Devlog
+  - posts
 tags:
   - game-engine
   - devlog
