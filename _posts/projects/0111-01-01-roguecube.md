@@ -25,7 +25,7 @@ game_info:
 >**Genre**: Action, arcade.<br>
 >**Players**: Up to 4 players in local co-op.<br>
 >**Engine**: GameMaker Studio 2.<br>
->**Role**: Game developer."<br>
+>**Role**: Game developer.<br>
 ><br>
 >**Release info:**
 >- [<i class='fab fa-playstation'/> **Playstation 4 (EU)**](https://store.playstation.com/en-gb/product/EP0896-CUSA14184_00-RATAGAMROGUECUBE): Aug. 05, 2020.

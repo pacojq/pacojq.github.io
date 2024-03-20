@@ -25,7 +25,7 @@ game_info:
 >**Genre**: Action.<br>
 >**Players**: Singleplayer.<br>
 >**Engine**: Unity.<br>
->**Role**: Porting engineer."<br>
+>**Role**: Porting engineer.<br>
 ><br>>
 >**Release info:**
 >- [<i class='fab fa-steam'/> **PC (Steam)**](https://store.steampowered.com/app/1205450/Turnip_Boy_Commits_Tax_Evasion/): Apr. 22, 2021.

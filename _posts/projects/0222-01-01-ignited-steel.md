@@ -25,7 +25,7 @@ game_info:
 >**Genre**: Turn-based tactics, rogue-like.<br>
 >**Players**: Singleplayer.<br>
 >**Engine**: Unity.<br>
->**Role**: Platform & Tools programmer."<br>
+>**Role**: Platform & Tools programmer.
 ><br>
 >**Release info:**
 >- [<i class='fab fa-steam'/> **PC (Steam)**](https://store.steampowered.com/app/1550740/Ignited_Steel_Mech_Tactics/): Apr. 22, 2021.

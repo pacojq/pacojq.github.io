@@ -30,7 +30,7 @@ carousels:
 >**Genre**: Strategy, turn-based.<br>
 >**Players**: Singleplayer.<br>
 >**Engine**: Unity.<br>
->**Role**: Core programmer, Graphics programmer, Technical Artist."<br>
+>**Role**: Core programmer, Graphics programmer, Technical Artist.<br>
 ><br>
 >**Release info:**
 >- [<i class='fab fa-steam'/> **PC (Steam)**](https://store.steampowered.com/app/2603300/Songs_of_Steel_Hispania/): TBR - 2024.

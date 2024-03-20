@@ -25,7 +25,7 @@ game_info:
 >**Genre**: Arcade, sports.<br>
 >**Players**: Up to 8 players in local co-op.<br>
 >**Engine**: Unity.<br>
->**Role**: Game developer."<br>
+>**Role**: Game developer.<br>
 ><br>
 >**Release info:**
 >- [<i class='fab fa-steam'/> **PC (Steam Early Access)**](https://store.steampowered.com/app/877870/World_Soccer_Strikers_91/): Oct. 15, 2020.

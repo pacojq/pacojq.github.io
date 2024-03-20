@@ -25,7 +25,7 @@ game_info:
 >**Genre**: Platformer.<br>
 >**Players**: Singleplayer.<br>
 >**Engine**: Unity.<br>
->**Role**: Porting engineer."<br>
+>**Role**: Porting engineer.<br>
 ><br>
 >**Release info:**
 >- [<i class='fab fa-steam'/> **PC (Steam)**](https://store.steampowered.com/app/1961260/Running_on_Magic/): Jul. 15, 2022.

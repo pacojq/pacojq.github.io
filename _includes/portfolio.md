@@ -36,27 +36,41 @@ For a detailed view of my professional experience, please refer to my <a href="h
 
 ## Engine Programming
 
-- **Xaloc.** A 2D game engine written in C++. It's an engine with an ECS approach, that supports OpenGL rendering and allows C# scripting through mono. <a href='https://github.com/pacojq/Xaloc'>[Source Code]</a> <i class='fab fa-github' />
+- **Xaloc.** <small>[[Source Code]](https://github.com/pacojq/Xaloc) <i class='fab fa-github'/></small><br>
+  A 2D game engine written in C++. It's an engine with an ECS approach, that supports OpenGL rendering and allows C# scripting through mono.
 
 {% include carousel.html height="50" unit="%" duration="7" number="2" %}
 
 
 ## Tools Programming
 
-- **TexWriter.** A shader-based image genrator, built using C++, OpenGL and ImGui. <a href='https://github.com/pacojq/TexWriter'>[Source Code]</a> <i class='fab fa-github' />
+- **TexWriter.** <small>[[Source Code]](https://github.com/pacojq/TexWriter) <i class='fab fa-github'/></small><br>
+  A shader-based image genrator, built using C++, OpenGL and ImGui.
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
-- **Rosetta.** Proprietary localization tool written in C++, using XML, OpenGL and ImGui. Used for the game localization process in Meteorbyte Studios releases. Provides basic functionality, such as basic project statistics, text search and filtering, content preview with different fonts and character sets, and string comparison among different languages.
-- **Buildbot Fork.** Used Python and [Buildbot](https://buildbot.net/) to develop an internal Continuous Integration tool, which automates PC and PS4 builds.
-- **_Deck RX_ Toolset.** Tile-based level editor for in-game circuits. Programmed as a standalone C# Unity application and outputting level data in both JSON and binary file formats.
-- **_Ignited Steel_ Toolset.** Multiple Unity extensions and custom tools for the development of the console versions of the game, including: 
-  - A "sprite stack" mesh generator, which allows the preview and generation of sliced mesh assets from a given set of sprites,
-  - A Localization Scanner, with the ability of checking the whole asset database looking for unlocalised UI elements or miss-configured font asset references.
-- **_Songs of Steel: Hispania_ Toolset.** Designed and implemented multiple key tools in asset creation pipeline for _[Songs of Steel](https://store.steampowered.com/app/2603300/Songs_of_Steel_Hispania/)_, a narrative strategy game. Among them:
-  - Node-based editor for Narrative Designers to structure both quests and dialogue assets in Unity,
-  - In-engine hexagonal tilemap editor, allowing the modification of navmeshes, level terrain conditions, trigger areas and enemy spawn zones.
-- **Unity extensions.** Vast work in custom Unity tools and extensions for the Unity Editor, to deliver the best-fitting toolset for artists and designers' needs in each project.
+- **Rosetta.**<br>
+  Localization tool written in C++, using XML, OpenGL and ImGui. Used for the game localization process in Meteorbyte Studios releases. Provides basic functionality, such as basic project statistics, text search and filtering, content preview with different fonts and character sets, and string comparison among different languages.
+
+- **Buildbot Fork.**<br>
+  Used Python and [Buildbot](https://buildbot.net/) to develop an internal Continuous Integration tool, which automates PC and PS4 builds.
+
+- **_Deck RX_ Toolset.**<br>
+  Tile-based level editor for in-game circuits. Programmed as a standalone C# Unity application and outputting level data in both JSON and binary file formats.
+
+- **_Ignited Steel_ Toolset.**<br>
+  Multiple Unity extensions and custom tools for the development of the console versions of the game, including: 
+    - A "sprite stack" mesh generator, which allows the preview and generation of sliced mesh assets from a given set of sprites,
+    - A Localization Scanner, with the ability of checking the whole asset database looking for unlocalised UI elements or miss-configured font asset references.
+
+- **_Songs of Steel: Hispania_ Toolset.**<br>
+  Designed and implemented multiple key tools in asset creation pipeline for _[Songs of Steel](https://store.steampowered.com/app/2603300/Songs_of_Steel_Hispania/)_, a narrative strategy game. Among them:
+    - Node-based editor for Narrative Designers to structure both quests and dialogue assets in Unity,
+    - In-engine hexagonal tilemap editor, allowing the modification of navmeshes, level terrain conditions, trigger areas and enemy spawn zones.
+
+- **Unity extensions.**<br>
+  Vast work in custom Unity tools and extensions for the Unity Editor, to deliver the best-fitting toolset for artists and designers' needs in each project.
+
 
 {% include carousel.html height="50" unit="%" duration="7" number="3" %}
 
@@ -114,8 +128,7 @@ I have experience talking to broader audiences, both as a University guest lectu
 [2]: https://www.youtube.com/watch?v=3DR38INhtIs
 [1]: https://github.com/pacojq/game-feel-101
 
-
-{% include carousel.html height="50" unit="%" duration="7" number="5" %}
+{% include post-image.html src="/img/portfolio/talk-devgamm.jpg" description="Picture taken during the Panel Discussion in DevGamm Lisbon 2023." %}
 
 ## Other Work
 
