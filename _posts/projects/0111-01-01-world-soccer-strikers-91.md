@@ -3,7 +3,7 @@ layout: project
 title: "World Soccer Strikers '91"
 permalink: /games/world-soccer-strikers-91
 
-override_post: "game"
+post_type: "game"
 share: false
 toc: false
 hidden: true

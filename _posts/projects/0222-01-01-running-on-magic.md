@@ -3,7 +3,7 @@ layout: project
 title: "Running On Magic"
 permalink: /games/running-on-magic
 
-override_post: "game"
+post_type: "game"
 share: false
 toc: false
 hidden: true

@@ -3,7 +3,7 @@ layout: project
 title: "Ignited Steel"
 permalink: /games/ignited-steel
 
-override_post: "game"
+post_type: "game"
 share: false
 toc: false
 hidden: true

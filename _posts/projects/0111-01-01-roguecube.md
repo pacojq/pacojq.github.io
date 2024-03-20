@@ -3,7 +3,7 @@ layout: project
 title: "RogueCube"
 permalink: /games/roguecube
 
-override_post: "game"
+post_type: "game"
 share: false
 toc: false
 hidden: true

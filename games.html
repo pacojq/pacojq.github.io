@@ -17,8 +17,8 @@ https://github.com/kitian616/jekyll-TeXt-theme
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-			<!-- Selecting posts that have `override_post` defined and set to `game` -->
-			{%- assign _games = site.posts | where: "override_post", "game" -%}
+			<!-- Selecting posts that have `post_type` defined and set to `game` -->
+			{%- assign _games = site.posts | where: "post_type", "game" -%}
 			{%- assign _games = _games | reverse -%}
 
 			<!-- Tags (as filter) -->

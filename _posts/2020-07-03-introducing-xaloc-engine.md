@@ -3,6 +3,7 @@ layout: post
 title: "Introducing Xaloc Engine"
 subtitle: "<i>Introducing Xaloc Engine: yet another 2D game engine developed in C++.</i>"
 permalink: /posts/introducing-xaloc-engine
+post_type: "post"
 
 excerpt: "Introducing Xaloc Engine."
 

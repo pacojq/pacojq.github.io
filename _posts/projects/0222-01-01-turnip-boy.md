@@ -3,7 +3,7 @@ layout: project
 title: "Turnip Boy Commits Tax Evasion"
 permalink: /games/turnip-boy
 
-override_post: "game"
+post_type: "game"
 share: false
 toc: false
 hidden: true
