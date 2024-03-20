@@ -22,6 +22,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
 			<!-- Using `nil` to select posts that either do not have `override_post` -->
 			<!-- defined or `override_post` has been set to `nil` explicitly.  -->
 			{%- assign _posts = site.posts | where: 'override_post', nil -%}
+			{%- assign _posts = _posts | where: 'override_post', empty -%}
 
 			<!-- Tags (as filter) -->
 			<div id='tag_cloud' class="tags tags-sup js-tags">
