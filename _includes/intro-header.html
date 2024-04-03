@@ -7,7 +7,15 @@
 <style type="text/css">
     header.intro-header{
         position: relative;
+    }
+
+    header.intro-header .header-image{
         background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}');
+        background-position: center;
+        background-size: inherit;
+        width: 100%;
+        height: 100%;
+        position: absolute;
         background: {{ page.header-bg-css }};
     }
 
@@ -28,6 +36,7 @@
 {% else %}
 <header class="intro-header" >
 {% endif %}
+    <div class="header-image"></div>
     <div class="header-mask"></div>
     {% if page.header-img-credit %}
     <div class="header-img-credit">
@@ -96,7 +105,8 @@
 {% endif %}
 
 {% if include.type == 'page' %}
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header class="intro-header">
+  <div class="header-image" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')"></div>
   <div class="header-mask"></div>
   <div class="container">
     <div class="row">
