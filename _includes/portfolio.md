@@ -106,6 +106,9 @@ as the core system to handle the story events of the campaign.
 
 I have experience talking to broader audiences, both as a University guest lecturer and as a speaker in game conferences. Some of them list as:
 
+- **won't somebody please think of the tools**<br>
+  <small>at [**Guadalindie**](https://guadalindie.com/) • May 2024.</small>
+
 - **game postmortem: alexandria**<br>
   <small>at [**BCN Game Creators**](https://twitter.com/bcngamecreators) • Feb. 2024.</small>
 
