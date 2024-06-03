@@ -44,6 +44,9 @@ For a detailed view of my professional experience, please refer to my <a href="h
 
 ## Tools Programming
 
+- **_Glacier Engine_ Animation Toolset.**<br>
+  Work on animation tooling for IO Interactive's proprietary engine, [Glacier](https://ioi.dk/glacier), powering games like [HITMAN](https://ioi.dk/hitman), [Project Fantasy](https://ioi.dk/project-fantasy) and [Project 007](https://ioi.dk/project-007).
+
 - **TexWriter.** <small>[[Source Code]](https://github.com/pacojq/TexWriter) <i class='fab fa-github'/></small><br>
   A shader-based image genrator, built using C++, OpenGL and ImGui.
 
@@ -75,6 +78,46 @@ For a detailed view of my professional experience, please refer to my <a href="h
 {% include carousel.html height="50" unit="%" duration="7" number="3" %}
 
 
+## Community
+
+I'm a co-organizer of the [Sant Jordi Jam](https://santjordijam.github.io/), a non-competitive game jam with the objective of celebrating the day of [Sant Jordi](https://en.wikipedia.org/wiki/The_Day_of_Books_and_Roses).
+
+Find more info on [itch.io](https://itch.io/jam/sant-jordi-24) and [socials](https://twitter.com/SantJordiJam).
+
+
+## Appearence
+
+I have experience talking to broader audiences, both as a University guest lecturer and as a speaker in game conferences. Some of them list as:
+
+- **won't somebody please think of the tools** [[ES]][4]<br>
+  <small>at [**Guadalindie**](https://guadalindie.com/) • May 2024.</small>
+
+- **game postmortem: alexandria**<br>
+  <small>at [**BCN Game Creators**](https://twitter.com/bcngamecreators) • Feb. 2024.</small>
+
+- **PANEL DISCUSSION: Challenges and Triumphs: A Deep Dive into AAA Game Development**<br>
+  <small>at [**DevGamm Lisbon**](https://devgamm.com/) • Nov. 2023.</small>
+
+- **Hey, mira, una charla de programación** [[ES]][3]<br>
+  <small>at [**IndieDevDay**](https://www.indiedevday.es/en/) • Oct. 2022.</small>
+
+- **Technical Art in Video Games**<br>
+  <small>at **EII Tech Fest**, University of Oviedo • Feb. 2022.</small>
+
+- **Intro to Indie Game Development - Meteorbyte Studios' case** [[ES]][2]<br>
+  <small>at **EII Tech Fest**, University of Oviedo • Feb. 2021.</small>
+
+- **Game Feel 101** [[interactive presentation]][1] <i class='fab fa-github'/><br>
+  <small>at **University of Oviedo** • Fall 2019.</small>
+
+[4]: https://www.youtube.com/watch?v=voqM5-t1ns8
+[3]: https://www.youtube.com/watch?v=WzRlHjTWBAk
+[2]: https://www.youtube.com/watch?v=3DR38INhtIs
+[1]: https://github.com/pacojq/game-feel-101
+
+{% include post-image.html src="/img/portfolio/talk-devgamm.jpg" description="Picture taken during the Panel Discussion in DevGamm Lisbon 2023." %}
+
+
 ## Bachelor Thesis
 
 A Narrative Engine for video games with parallel and open storytelling.
@@ -101,37 +144,6 @@ as the core system to handle the story events of the campaign.
 >set priorities. Our system is currently being used by multiple in-development
 >commercial projects.
 
-
-## Appearence
-
-I have experience talking to broader audiences, both as a University guest lecturer and as a speaker in game conferences. Some of them list as:
-
-- **won't somebody please think of the tools**<br>
-  <small>at [**Guadalindie**](https://guadalindie.com/) • May 2024.</small>
-
-- **game postmortem: alexandria**<br>
-  <small>at [**BCN Game Creators**](https://twitter.com/bcngamecreators) • Feb. 2024.</small>
-
-- **PANEL DISCUSSION: Challenges and Triumphs: A Deep Dive into AAA Game Development**<br>
-  <small>at [**DevGamm Lisbon**](https://devgamm.com/) • Nov. 2023.</small>
-
-- **Hey, mira, una charla de programación** [[ES]][3]<br>
-  <small>at [**IndieDevDay**](https://www.indiedevday.es/en/) • Oct. 2022.</small>
-
-- **Technical Art in Video Games**<br>
-  <small>at **EII Tech Fest**, University of Oviedo • Feb. 2022.</small>
-
-- **Intro to Indie Game Development - Meteorbyte Studios' case** [[ES]][2]<br>
-  <small>at **EII Tech Fest**, University of Oviedo • Feb. 2021.</small>
-
-- **Game Feel 101** [[interactive presentation]][1] <i class='fab fa-github'/><br>
-  <small>at **University of Oviedo** • Fall 2019.</small>
-
-[3]: https://www.youtube.com/watch?v=WzRlHjTWBAk
-[2]: https://www.youtube.com/watch?v=3DR38INhtIs
-[1]: https://github.com/pacojq/game-feel-101
-
-{% include post-image.html src="/img/portfolio/talk-devgamm.jpg" description="Picture taken during the Panel Discussion in DevGamm Lisbon 2023." %}
 
 ## Other Work
 
