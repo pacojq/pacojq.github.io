@@ -1,6 +1,6 @@
 > Hello there! Name's Paco. Glad to have you here :D
 
-## some stuff about me:
+### some stuff about me:
 
  - born in Eivissa, Spain.
  - Catalan and Spanish are my native languages. I also speak English - you know, 'cause video games.
