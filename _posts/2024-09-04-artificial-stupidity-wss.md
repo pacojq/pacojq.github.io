@@ -4,6 +4,7 @@ title: "Artificial Stupidity in World Soccer Strikers '91"
 subtitle: "designing a soccer AI that simply does the trick"
 post_type: "post"
 seoTitle: "Artificial Stupidity in World Soccer Strikers 91"
+excerpt: "Breaking down the simplistic design for AI-controlled players in World Soccer Strikers '91."
 
 header-img: "img/posts/2024-09-04-artificial-stupidity-wss/background.png"
 header-mask: 0.7
