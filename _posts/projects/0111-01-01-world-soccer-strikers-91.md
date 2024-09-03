@@ -33,6 +33,13 @@ game_info:
 >- [<i class='fab fa-xbox'/> **Xbox One, Xbox Series X/S**](https://www.microsoft.com/en-us/p/world-soccer-strikers-91/9MX0CC26JG5K?activetab=pivot:overviewtab): Aug. 18, 2021.
 >- [<i class='fa fa-gamepad'/> **Nintendo Switch**](https://www.nintendo.com/games/detail/world-soccer-strikers-91-switch/): Aug. 19, 2021.
 
+I worked on this game during the COVID-19 Pandemic, in 2020. Fun times.
+
+If you [click here](/archive?tag=world-soccer-strikers), you can check the posts I've written about the game.
+
+
+### Store description
+
 **WSS'91 is here!** Welcome to the 90's, kid! Action and graphics on par with the arcades! Gather up a bunch of friends on your own living room! A huge bunch of teams (like, at least 40)! Game modes like tournaments, leagues and everything! What if we both pay for half and swap it every other week?
 
 ### Responsibilities
