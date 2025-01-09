@@ -9,6 +9,7 @@ toc: false
 hidden: true
 
 description: "Porting engineer [2022]"
+icon_img: "/img/games/turnip-boy/banner.jpg"
 header-img: "img/games/turnip-boy/banner.jpg"
 header-mask: 0.55
 

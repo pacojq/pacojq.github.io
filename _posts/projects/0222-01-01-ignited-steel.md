@@ -9,6 +9,7 @@ toc: false
 hidden: true
 
 description: "Platform & Tools programmer [2022]"
+icon_img: "/img/games/ignited-steel/Capsule.png"
 header-img: "img/games/ignited-steel/Capsule.png"
 header-mask: 0.55
 

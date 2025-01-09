@@ -9,6 +9,7 @@ toc: false
 hidden: true
 
 description: "Porting engineer [2022]"
+icon_img: "/img/games/running-on-magic/banner.png"
 header-img: "img/games/running-on-magic/banner.png"
 header-mask: 0.55
 

@@ -818,7 +818,7 @@ samp {
   margin-bottom: 30px;
 }
 .post-container h4 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   color: solid var(--col-site3);
 }
@@ -827,7 +827,7 @@ samp {
 }
 .post-container h5,
 .post-container h6 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
   color: solid var(--col-site4);
 }
@@ -1275,7 +1275,19 @@ samp {
     right: 15px;
   }
 }
+.post-preview > hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.post-preview > img {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-right: 1.3em;
+  height: 54px;
+}
 .post-preview > a {
+  display: inline-block;
   color: var(--col-site3);
 }
 .post-preview > a:hover,
@@ -1602,7 +1614,7 @@ img::-moz-selection {
 }
 .mini-post-list .post-preview > a .post-title {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 20px;
 }
 .mini-post-list .post-preview > a .post-subtitle {

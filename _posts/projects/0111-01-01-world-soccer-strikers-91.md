@@ -9,6 +9,7 @@ toc: false
 hidden: true
 
 description: "Solo developer, Porting engineer [2020-21]"
+icon_img: "/img/games/world-soccer-strikers-91/wallpaper.png"
 header-img: "img/games/world-soccer-strikers-91/wallpaper.png"
 header-mask: 0.55
 

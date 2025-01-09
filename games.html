@@ -1,7 +1,7 @@
 ---
 title: games
 layout: default
-description: "here are all the games I've worked on"
+description: "here are all the commercial games I've worked on"
 header-mask: 0.27
 ---
 
@@ -32,8 +32,11 @@ https://github.com/kitian616/jekyll-TeXt-theme
 			<!-- Article List -->
 			<div class="mini-post-list a">
 				{%- for _project in _games -%}
-				<section>
-					<div class="post-preview item" >
+				<section class="post-preview item" >
+					<div class="post-preview" >
+						{% if _project.icon_img %}
+						<img src="{{ _project.icon_img }}"/>
+						{% endif %}
 						<a href="{{ _project.url | prepend: site.baseurl }}">
 							<h2 class="post-title">
 								{{ _project.title }}
@@ -44,8 +47,8 @@ https://github.com/kitian616/jekyll-TeXt-theme
 							</h3>
 							{% endif %}
 						</a>
-						<hr>
 					</div>
+					<hr>
 				</section>
 				{% endfor %}
 			</div>

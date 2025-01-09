@@ -9,6 +9,7 @@ toc: false
 hidden: true
 
 description: "Solo developer [2020]"
+icon_img: "/img/games/roguecube/banner.png"
 header-img: "img/games/roguecube/banner.png"
 header-mask: 0.55
 
