@@ -33,12 +33,10 @@ collections:
 future: true
 
 # SNS settings
-github_username: pacojq
-twitter_username: _thisIsPJ
-linkedin_username:  paco-juan-6589ba14b
-mastodon_username: https://mastodon.gamedev.place/@thapj
-
 social_links:
+  - label: "Bluesky"
+    icon: "fab fa-fw fa-bluesky"
+    url: "https://bsky.app/profile/pacoj.bsky.social"
   - label: "Twitter"
     icon: "fab fa-fw fa-twitter-square"
     url: "https://twitter.com/_thisIsPJ"
