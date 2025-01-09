@@ -1629,6 +1629,17 @@ img::-moz-selection {
   line-height: 12px;
 }
 @media only screen and (min-width: 768px) {
+  .mini-post-list .post-preview > hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .mini-post-list .post-preview > img {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 1.3em;
+    height: 54px;
+  }
   .mini-post-list .post-preview {
     margin-left: 20px;
   }
