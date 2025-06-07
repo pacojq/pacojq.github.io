@@ -8,7 +8,7 @@ share: false
 toc: false
 hidden: true
 
-description: "Graphics & Core programmer [2020-23, in dev]"
+description: "Graphics & Core programmer [2024]"
 icon_img: "/img/games/songs-of-steel/portada.png"
 header-img: "img/games/songs-of-steel/capsule.png"
 header-mask: 0.55
