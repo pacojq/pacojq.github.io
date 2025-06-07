@@ -34,7 +34,7 @@ carousels:
 >**Role**: Core programmer, Graphics programmer, Technical Artist.<br>
 ><br>
 >**Release info:**
->- [<i class='fab fa-steam'/> **PC (Steam)**](https://store.steampowered.com/app/2603300/Songs_of_Steel_Hispania/): TBR - 2024.
+>- [<i class='fab fa-steam'/> **PC (Steam)**](https://store.steampowered.com/app/2603300/Songs_of_Steel_Hispania/): Jul. 11, 2024.
 
 _Songs of Steel: Hispania_ is an up-coming PC game, for which I have
 contributed in a range of core and graphics programming tasks, and some
@@ -42,16 +42,21 @@ remarkable work under the role of tech artist.
 
 ### Tools Programming
 
-Designed and implemented multiple key tools in asset creation pipeline for the game. Among them:
-  - Node-based editor for Narrative Designers to structure both quests and dialogue assets in Unity,
-  - In-engine hexagonal tilemap editor, allowing the modification of navmeshes, level terrain conditions, trigger areas and enemy spawn zones,
-  - In-engine grass brush tool, for populating levels with procedurally-generated grass geometry.
+Designed and implemented multiple key tools in asset creation pipeline for
+the game. Among them:
+  - Node-based editor for Narrative Designers to structure both quests and
+  dialogue assets in Unity,
+  - In-engine hexagonal tilemap editor, allowing the modification of navmeshes,
+  level terrain conditions, trigger areas and enemy spawn zones,
+  - In-engine grass brush tool, for populating levels with procedurally-generated
+  grass geometry.
 
 ### Graphics Programming and Tech Art
 
-The game has a custom deferred Render Pipeline, extending the capabilities of Unity's 
-default URP forward renderer, presenting a custom toon lighting model that tries
-to match a comic style similar to the one found in Mike Mignola's works.
+The game has a custom deferred Render Pipeline, extending the capabilities of
+Unity's  default URP forward renderer, presenting a custom toon lighting model
+that tries to match a comic style similar to the one found in Mike Mignola's
+works.
 
 Also, technical art work is present in a variety of forms, as:
   - Tree foliage shader,
