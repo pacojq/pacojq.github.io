@@ -19,6 +19,10 @@ game_info:
   release: "Apr. 2022"
   capsule: "/img/games/turnip-boy/capsule.png"
   category: "Ports"
+  tags:
+    - console port
+    - commercial
+    - Unity Engine
 ---
 
 >**Developer**: Snoozy Kazoo.<br>

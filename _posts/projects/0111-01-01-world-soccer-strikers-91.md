@@ -19,6 +19,10 @@ game_info:
   release: "2020-21"
   capsule: "/img/games/world-soccer-strikers-91/cover.png"
   category: "Solo Projects"
+  tags:
+    - solo project
+    - commercial
+    - Unity Engine
 ---
 
 >**Developer**: Bipolar Dawn.<br>

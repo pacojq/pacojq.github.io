@@ -2,15 +2,20 @@
 {% assign _src = include.src %}
 {% assign _alt = include.alt %}
 {% assign _description = include.description %}
+{% assign _height = include.height %}
+{% if _height %}
+<div class="post-container" style="height: {{ _height }};">
+{% else %}
 <div class="post-container" style="height:auto;">
-  <!--<div class="visible-md visible-lg">-->
+{% endif %}
+    <!--<div class="visible-md visible-lg">-->
     {% if _alt %}
-    <img src="{{ _src }}" alt="{{ _alt }}"/>
+    <img src="{{ _src }}" alt="{{ _alt }}" style="height:100%"/>
     {% else %}
-    <img src="{{ _src }}"/>
+    <img src="{{ _src }}" style="height:100%"/>
     {% endif %}
     {% if _description %}
     <small class="img-hint">{{ _description }}</small>
     {% endif %}
-  <!--</div>-->
+    <!--</div>-->
 </div>

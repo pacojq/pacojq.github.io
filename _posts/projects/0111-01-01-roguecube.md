@@ -9,16 +9,20 @@ toc: false
 hidden: true
 
 description: "Solo developer [2020]"
-icon_img: "/img/games/roguecube/banner.png"
-header-img: "img/games/roguecube/banner.png"
+icon_img: "/img/games/roguecube/banner.webp"
+header-img: "img/games/roguecube/banner.webp"
 header-mask: 0.55
 
 game_info:
   developer: "Bipolar Dawn"
   role: "Game developer"
   release: "Aug. 2020"
-  capsule: "/img/games/roguecube/banner.png"
+  capsule: "/img/games/roguecube/banner.webp"
   category: "Solo Projects"
+  tags:
+    - solo project
+    - commercial
+    - Unity Engine
 ---
 
 >**Developer**: Bipolar Dawn.<br>

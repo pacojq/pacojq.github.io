@@ -9,16 +9,20 @@ toc: false
 hidden: true
 
 description: "Graphics & Core programmer [2024]"
-icon_img: "/img/games/songs-of-steel/portada.png"
+icon_img: "/img/games/songs-of-steel/portada.webp"
 header-img: "img/games/songs-of-steel/capsule.png"
 header-mask: 0.55
 
 game_info:
   developer: "Meteorbyte Studios"
   role: "Graphics & Core programmer"
-  release: "TBD"
+  release: "2024"
   capsule: "/img/games/songs-of-steel/capsule.png"
   category: "Studio Projects"
+  tags:
+    - studio project
+    - commercial
+    - Unity Engine
 
 carousels:
   - images: 

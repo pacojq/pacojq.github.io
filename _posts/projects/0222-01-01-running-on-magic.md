@@ -19,6 +19,10 @@ game_info:
   release: "Aug. 2020"
   capsule: "/img/games/running-on-magic/capsule.png"
   category: "Ports"
+  tags:
+    - console port
+    - commercial
+    - Unity Engine
 ---
 
 >**Developer**: Gusarapo Games.<br>
@@ -29,6 +33,7 @@ game_info:
 >**Role**: Porting engineer.<br>
 ><br>
 >**Release info:**
+>- [<i class='fab fa-itch'/> **PC (itch.io)**](https://gusarapo-games.itch.io/running-on-magic): Oct. 24, 2024. (free to play!)
 >- [<i class='fab fa-steam'/> **PC (Steam)**](https://store.steampowered.com/app/1961260/Running_on_Magic/): Jul. 15, 2022.
 >- [<i class='fab fa-playstation'/> **Playstation 4, PlayStation 5**](https://store.playstation.com/es-es/concept/10003784): Sept. 29, 2022.
 >- [<i class='fab fa-xbox'/> **Xbox One, Xbox Series X/S**](https://www.xbox.com/es-ES/games/store/running-on-magic/9P0CQSRNNZ4N): Jul. 15, 2022.

@@ -9,16 +9,20 @@ toc: false
 hidden: true
 
 description: "Platform & Tools programmer [2022]"
-icon_img: "/img/games/ignited-steel/Capsule.png"
-header-img: "img/games/ignited-steel/Capsule.png"
+icon_img: "/img/games/ignited-steel/capsule.webp"
+header-img: "img/games/ignited-steel/capsule.webp"
 header-mask: 0.55
 
 game_info:
   developer: "Yokaicade"
   role: "Platform & Tools programmer"
   release: "2021"
-  capsule: "/img/games/ignited-steel/Hero capsule.png"
+  capsule: "/img/games/ignited-steel/hero-capsule.webp"
   category: "Ports"
+  tags:
+    - console port
+    - commercial
+    - Unity Engine
 ---
 
 >**Developer**: Yokaicade<br>
