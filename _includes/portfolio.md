@@ -101,17 +101,17 @@ For a detailed view of my professional experience, please refer to my
 {% include carousel.html height="50" unit="%" duration="7" number="3" %}
 
 
-## Community
+## Initiatives & Community
 
 I'm a co-organizer of the [Sant Jordi Jam](https://santjordijam.github.io/), a
 non-competitive game jam with the objective of celebrating the day of
-[Sant Jordi](https://en.wikipedia.org/wiki/The_Day_of_Books_and_Roses).
+[Sant Jordi](https://en.wikipedia.org/wiki/The_Day_of_Books_and_Roses):
+ - 2025 edition: _els dracs del dia a dia_ - [itch.io](https://itch.io/jam/sant-jordi-jam-2025)
+ - 2024 edition: _Llegenda i Diada_ - [itch.io](https://itch.io/jam/sant-jordi-24) and
+[socials](https://twitter.com/SantJordiJam)
 
-Find more info on [itch.io](https://itch.io/jam/sant-jordi-24) and
-[socials](https://twitter.com/SantJordiJam).
 
-
-## Appearence
+## Talks & Appearences
 
 I have experience talking to broader audiences, both as a University guest
 lecturer and as a speaker in game conferences. Some of them list as:
@@ -120,7 +120,8 @@ lecturer and as a speaker in game conferences. Some of them list as:
   <small>at [**Guadalindie**](https://guadalindie.com/) • May 2024.</small>
 
 - **game postmortem: alexandria**<br>
-  <small>at [**BCN Game Creators**](https://twitter.com/bcngamecreators) • Feb. 2024.</small>
+  <small>at [**BCN Game Creators**](https://twitter.com/bcngamecreators) • Feb. 2024.</small><br>
+  <small>at [**game devs Asturias**](https://www.instagram.com/gamedevs.asturias/) • Aug. 2025.</small>
 
 - **PANEL DISCUSSION: Challenges and Triumphs: A Deep Dive into AAA Game Development**<br>
   <small>at [**DevGamm Lisbon**](https://devgamm.com/) • Nov. 2023.</small>

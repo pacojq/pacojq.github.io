@@ -15,7 +15,7 @@
     <img src="{{ _src }}" style="height:100%"/>
     {% endif %}
     {% if _description %}
-    <small class="img-hint">{{ _description }}</small>
+    <small class="img-hint">{{ _description | markdownify }}</small>
     {% endif %}
     <!--</div>-->
 </div>

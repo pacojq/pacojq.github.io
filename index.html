@@ -2,9 +2,10 @@
 layout: page
 title: "hello there!"
 hide-in-nav: true
-description: "This is Paco Juan - Video Game Programmer."
-header-mask: 0.27
+header-mask: 0.47
 ---
+
+<hr>
 
 {% for post in paginator.posts %}
 <div class="post-preview">
@@ -17,12 +18,14 @@ header-mask: 0.27
             {{ post.subtitle }}
         </h3>
         {% endif %}
+        <!--
         <div class="post-content-preview">
             {{ post.content | strip_html | truncate:300 }}
         </div>
+        -->
     </a>
     <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.author.name }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        > posted on {{ post.date | date: "%B %-d, %Y" }}
     </p>
 </div>
 <hr>

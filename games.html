@@ -1,57 +1,42 @@
 ---
 title: games
 layout: default
-description: "here are all the commercial games I've worked on"
-header-mask: 0.27
+permalink: /games
+header-img: "img/games-bg.webp"
+header-mask: 0.63
 ---
 
-<!--
-Credits: this page shamelessly borrowed a lot from:
-https://github.com/kitian616/jekyll-TeXt-theme
--->
 <!-- Page Header -->
 {% include intro-header.html type='page' short=false %}
 
 <!-- Main Content -->
 <div class="container">
 	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+		<!-- Games Container -->
+		<div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12
+			col-xs-12">
+
+			<p>Here's the list of all commercial games I've worked on:</p>
+			<hr>
 
 			<!-- Selecting posts that have `post_type` defined and set to `game` -->
 			{%- assign _games = site.posts | where: "post_type", "game" -%}
 			{%- assign _games = _games | reverse -%}
 
-			<!-- Tags (as filter) -->
-			<div id='tag_cloud' class="tags tags-sup js-tags">
-				<a class="tag-button--all" data-encode="">
-					Show All
-					<sup>{{_games.size}}</sup>
-				</a>
-			</div>
+			{% include game-list.html games=_games %}
+		</div>
 
-			<!-- Article List -->
-			<div class="mini-post-list a">
-				{%- for _project in _games -%}
-				<section class="post-preview item" >
-					<div class="post-preview" >
-						{% if _project.icon_img %}
-						<img src="{{ _project.icon_img }}"/>
-						{% endif %}
-						<a href="{{ _project.url | prepend: site.baseurl }}">
-							<h2 class="post-title">
-								{{ _project.title }}
-							</h2>
-							{% if _project.description %}
-							<h3 class="post-subtitle">
-								{{ _project.description }}
-							</h3>
-							{% endif %}
-						</a>
-					</div>
-					<hr>
-				</section>
-				{% endfor %}
-			</div>
+		<!-- Sidebar Container -->
+		<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12
+			col-xs-12 sidebar-container">
+
+			<!-- Short About -->
+			{% include short-about.html %}
+			<hr>
+			<!-- Featured Tags -->
+			{% include featured-tags.html %}
+
 		</div>
 	</div>
 </div>

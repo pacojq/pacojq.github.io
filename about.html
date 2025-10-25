@@ -1,11 +1,25 @@
 ---
-layout: page
+layout: default
 title: "about"
-description: "here's some sort of a quick bio"
-header-mask: 0.27
+permalink: /about
+header-img: "img/about-bg.webp"
+header-mask: 0.67
 ---
 
-<div class="post-container">
-    {% capture about %}{% include about.md %}{% endcapture %}
-    {{ about | markdownify }}
+<!-- Page Header -->
+{% include intro-header.html type='page' %}
+
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+
+		<!-- content -->
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1
+			post-container">
+			{% capture about %}{% include about.md %}{% endcapture %}
+			{{ about | markdownify }}
+		</div>
+
+	</div>
 </div>

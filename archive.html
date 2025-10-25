@@ -4,7 +4,7 @@ layout: default
 description: ""
 permalink: /archive
 header-img: "img/archive-bg.jpg"
-header-mask: 0.55
+header-mask: 0.59
 ---
 
 <!--
@@ -17,30 +17,17 @@ https://github.com/kitian616/jekyll-TeXt-theme
 <!-- Main Content -->
 <div class="container">
 	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-			<!-- Selecting posts that have `post_type` defined and set to `post` -->
-			{%- assign _posts = site.posts | where: 'post_type', 'post' -%}
+		<!-- Selecting posts that have `post_type` defined and set to `post` -->
+		{%- assign _posts = site.posts | where: 'post_type', 'post' -%}
 
-			<!-- Tags (as filter) -->
-			<div id='tag_cloud' class="tags tags-sup js-tags">
-				<a class="tag-button--all" data-encode="">
-					Show All
-					<sup>{{_posts.size}}</sup>
-				</a>
 
-				{% capture tags %}
-				{% for tag in site.tags %}
-				<a data-sort="{{ _posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
-					data-encode="{{ tag[0] | strip | url_encode }}" class="tag-button" title="{{ tag[0] }}"
-					rel="{{ tag[1].size }}">
-					{{ tag[0] }}
-					<sup>{{tag[1].size}}</sup>
-				</a>__SEPERATOR__
-				{% endfor %}
-				{% endcapture %}
-				{{ tags | split:'__SEPERATOR__' | sort }}
-			</div>
+		<!-- PostList Container -->
+		<div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12
+			col-xs-12 postlist-container">
+
+			<h2>posts</h2>
+			<hr>
 
 			<!-- Article List -->
 			<div class="mini-post-list js-result d-none">
@@ -89,5 +76,32 @@ https://github.com/kitian616/jekyll-TeXt-theme
 				{% endfor %}
 			</div>
 		</div>
+
+		<!-- Sidebar Container -->
+		<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12
+			col-xs-12 postlist-container">
+
+			<h4>TAGS</h4>
+			<!-- Tags (as filter) -->
+			<div id='tag_cloud' class="tags tags-sup js-tags">
+				<a class="tag-button--all" data-encode="">
+					Show All
+					<sup>{{_posts.size}}</sup>
+				</a>
+
+				{% capture tags %}
+				{% for tag in site.tags %}
+				<a data-sort="{{ _posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
+					data-encode="{{ tag[0] | strip | url_encode }}" class="tag-button" title="{{ tag[0] }}"
+					rel="{{ tag[1].size }}">
+					{{ tag[0] }}
+					<sup>{{tag[1].size}}</sup>
+				</a>__SEPERATOR__
+				{% endfor %}
+				{% endcapture %}
+				{{ tags | split:'__SEPERATOR__' | sort }}
+			</div>
+		</div>
+
 	</div>
 </div>

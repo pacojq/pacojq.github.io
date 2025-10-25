@@ -1,0 +1,23 @@
+{% assign _games = include.games %}
+<div class="mini-post-list a">
+    {%- for _project in _games -%}
+    <section class="post-preview item">
+        <div class="post-preview">
+            {% if _project.icon_img %}
+            <img src="{{ _project.icon_img }}" />
+            {% endif %}
+            <a href="{{ _project.url | prepend: site.baseurl }}">
+                <h2 class="post-title">
+                    {{ _project.title }}
+                </h2>
+                {% if _project.description %}
+                <h3 class="post-subtitle">
+                    {{ _project.description }}
+                </h3>
+                {% endif %}
+            </a>
+        </div>
+        <hr>
+    </section>
+    {% endfor %}
+</div>

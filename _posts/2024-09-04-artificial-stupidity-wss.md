@@ -89,7 +89,7 @@ Strikers_. Said State Machine defines the following states:
  send for execution, in the same way as other AI states in this State
  Machine do.
 
-{% include post-image.html src="/img/posts/2024-09-04-artificial-stupidity-wss/celebration.jpg" description="change of state after a goal - capture courtesy of <a href='https://www.devuego.es/bd/fjuego/world-soccer-strikers-91'>DeVuego</a>." %}
+{% include post-image.html src="/img/posts/2024-09-04-artificial-stupidity-wss/celebration.jpg" description="change of state after a goal - capture courtesy of [DeVuego](https://www.devuego.es/bd/fjuego/world-soccer-strikers-91)." %}
 
 Something to mention regarding the high-level State Machine is that it
 does not include any sort of implementation for automatic transitions.
