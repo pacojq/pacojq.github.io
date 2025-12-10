@@ -12,6 +12,8 @@
   --col-site2-dark: #D4D8CD;
   --col-site3-light: #375983;
 
+  --col-site0-alpha2: rgba(228, 154, 176, 0.5);
+
   --gradient: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(59,59,59) 30%, rgb(59,59,59) 100%);
 }
 
@@ -1190,6 +1192,7 @@ samp {
   margin-top: 0;
   font-size: 50px;
   color: var(--col-site2);
+  text-shadow: 3px 3px 4px rgb(0, 0, 0, 0.3);
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
@@ -1216,6 +1219,7 @@ samp {
 .intro-header .post-heading h1 {
   font-size: 30px;
   margin-bottom: 24px;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.3);
 }
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
@@ -1236,6 +1240,7 @@ samp {
   margin: 10px 0 30px;
   margin-top: -5px;
   color: var(--col-site2-dark);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.3);
 }
 .intro-header .post-heading .meta {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -1252,7 +1257,7 @@ samp {
     color: var(--col-site2);
   }
   .intro-header .post-heading .subheading {
-    font-size: 30px;
+    font-size: 28px;
     color: var(--col-site2-dark);
   }
   .intro-header .post-heading .meta {
@@ -1507,6 +1512,11 @@ img::-moz-selection {
   margin: 0 1px;
   margin-bottom: 6px;
   cursor: pointer;
+}
+.post-heading .tags .tag {
+  border: 1px solid var(--col-site0-alpha2);
+  color: #d2d2d2;
+  background-color: rgba(201, 112, 112, 0.2);
 }
 .tags a > sup,
 .tags .tag > sup {

@@ -52,9 +52,9 @@
                         <a class="tag" href="{{ site.baseurl }}/archive?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
                         {% endfor %}
                     </div>
-                    <h1>{{ page.title }}</h1>
+                    <h1>{{ page.title | markdownify }}</h1>
                     {% comment %} always create a h2 for keeping the margin {% endcomment %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
+                    <h2 class="subheading"><i>{{ page.subtitle }}</i></h2>
                     <!--
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
                     -->
@@ -92,7 +92,7 @@
                         <a class="tag" href="{{ site.baseurl }}/archive?tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
                         {% endfor %}
                     </div>
-                    <h1>{{ page.title }}</h1>
+                    <h1>{{ page.title | markdownify }}</h1>
                     {% comment %} always create a h2 for keeping the margin {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}
@@ -116,7 +116,7 @@
         {% else %}
         <div class="site-heading">
         {% endif %}
-          <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+          <h1><i>{% if page.title %}{{ page.title | markdownify }}{% else %}{{ site.title }}{% endif %}</i></h1>
           <span class="subheading">{{ page.description }}</span>
         </div>
       </div>

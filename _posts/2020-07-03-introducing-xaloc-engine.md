@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Introducing Xaloc Engine"
-subtitle: "<i>Introducing Xaloc Engine: yet another 2D game engine developed in C++.</i>"
+title: "introducing Xaloc Engine"
+subtitle: "yet another 2D game engine developed in C++."
 post_type: "post"
 
 header-img: "img/posts/2020-07-03-introducing-xaloc-engine/sandbox.png"
@@ -37,7 +37,7 @@ turned to be the prefect excuse to finally deep dive in the world of game engine
 Dear reader, may I introduce Xaloc Engine.
 
 
-## The Engine
+## the engine
 
 As I've mentioned above, the development of Hazel Engine -huge shout out to its creator, 
 [Yan Chernikov](https://twitter.com/thecherno)-, was the reason I started this project.
@@ -50,7 +50,7 @@ codebase so far is shared with the Hazel project.
 This said, let's take a look at Xaloc.
 
 
-### Overview and Objectives
+### overview and objectives
 
 Xaloc is a 2D game engine, and this simplifies **a lot** of stuff. 
 
@@ -77,7 +77,7 @@ Thus, my objectives with this project are the following:
   Vulkan, and maybe continuing with DirectX in a -quite distant- future.
 
 
-### Engine Structure
+### engine structure
 
 Xaloc has a very simple structure, which divides the game in layers. Each layer -defined by
 the own Engine or by the actual game- defines its own behaviour on every frame update,
@@ -96,7 +96,7 @@ we need things interacting with each other in the screen -otherwise, we would be
 quite a boring game. Here's when entities appear.
 
 
-### Scenes and Entities
+### scenes and entities
 
 Every time I've had to develop a *game-engine-like* program, I've faced it in an object-oriented
 way. You know, we have the `GameObject` class, some references to `Component` objects inside, 
@@ -117,7 +117,7 @@ from the components, and provide a tiny interface so we can create and destroy
 entities and components.
 
 
-### Scripting
+### scripting
 
 One of my main objectives with this project was to learn how engines use scripting languages.
 
@@ -133,7 +133,7 @@ Here you can see an example of how to make a *two-minute* player controller in C
 ![Programming player movement in C#.](/img/posts/2020-07-03-introducing-xaloc-engine/csharp-demo.gif){: .align-center}
 
 
-## The Editor
+## the editor
 
 In addition to the mentioned above, Xaloc also has its own editor. Right now it's, quite 
 bare-bones -even more than the actual Engine.
@@ -147,7 +147,7 @@ Xaloc Editor.
 ![Screenshot the Xaloc editor with a simple sandbox game.](/img/posts/2020-07-03-introducing-xaloc-engine/xaloc-editor.png){: .align-center}
 
 
-## Future work
+## future work
 
 As one may notice, the current state of the Engine is far from accomplishing the objectives I
 mentioned previously. A lot of work still needs to be done, and the roadmap looks something 

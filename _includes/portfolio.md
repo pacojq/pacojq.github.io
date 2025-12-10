@@ -5,45 +5,29 @@ For a detailed view of my professional experience, please refer to my
 <a href="https://www.linkedin.com/in/paco-juan-6589ba14b/">LinkedIn profile</a>.
 
 
-## Graphics & Tech Art
-
-- **PJRP.** <small>[[Source Code]](https://github.com/pacojq/PJRP/) <i class='fab fa-github'/></small><br>
-  PBR render pipeline built from scratch in C# for Unity, fully working in PC,
-  Nintendo Switch, Xbox Series X/S PlayStation 4 and PlayStation 5.
-
-{% include post-image.html src="/img/projects/pjrp/image_001_0000.png" description="Screenshot of sample scene rendered in Unity with PJRP." %}
-
-- **Deck RX.** <small>[[Steam]](https://store.steampowered.com/app/1529180/Deck_RX_The_Deckbuilding_Racing_Game/) <i class='fab fa-steam'/></small><br>
-  Developed the game as Graphics Programmer and Tech Artist. Work in this project includes:
-    - Modification and extension of Unity's URP forward renderer to add deferred features,
-    - Toon-like illumination and fullscreen outline effect,
-    - Environment fog and lighting for every world,
-    - In-game special effects and particles
-
-{% include post-image.html src="/img/games/deck-rx/image_022_0000.png" description="Screenshot of a race in <i>Deck RX</i>." %}
-
-- **Ignited Steel.** <small>[[Steam]](https://store.steampowered.com/app/1550740/Ignited_Steel_Mech_Tactics/) <i class='fab fa-steam'/></small><br>
-  Designed and implemented a "Sprite Stack" based render pipeline, which achieves
-  a pixelated 3D graphic effect using animated layers of 2D sprites.
-
-- **Path Tracer.** <small>[[Source Code]](https://github.com/pacojq/RayTracingInOneWeekend/) <i class='fab fa-github'/></small><br>
-  Simple renderer following Peter Shirley's book ["Ray Tracing in One Weekend"](https://raytracing.github.io/books/RayTracingInOneWeekend.html).
-
-- **Vulkan Renderer.** <small>[[Source Code]](https://github.com/pacojq/HelloVulkan/) <i class='fab fa-github'/></small><br>
-  Small project used to learn Vulkan.
-
-- **Project Attrah.**<br>
-  Procedural world generation module, relying on compute shader programs and
-  multi-threaded processes. Transforming a flat world to give it a round planet look
-  via vertex manipulation. Vertices displaced with a HLSL shader, running in
-  real-time at 60 Hz.
-
-{% include carousel.html height="50" unit="%" duration="7" number="4" %}
-
-
 ## Engine Programming
 
-- **Xaloc.** <small>[[Source Code]](https://github.com/pacojq/Xaloc) <i class='fab fa-github'/></small><br>
+My experience in game engine programming ranges from hobby 2D engine work
+to developing commercial AAA engines, like IO Interactive's _Glacier_. The
+details list as follow:
+
+<hr>
+
+- **_Glacier Engine_ Animation Runtime**. <small>[[info]](https://ioi.dk/glacier) <i class='fab fa-github'/></small><br>
+  Work on animation runtime and tooling for IO Interactive's proprietary engine,
+  [Glacier](https://ioi.dk/glacier), powering games like [_HITMAN_](https://ioi.dk/hitman),
+  [_007 First Light_](https://ioi.dk/007firstlightgame) and [_Project Fantasy_](https://ioi.dk/project-fantasy).
+  My main responsibilities during my tenure at IO Interactive include:
+  - maintain and implement a variety nodes in for animation networks;
+  - work in core animation runtime features, like motion matching and cinematics;
+  - add diverse runtime debugging functionality and visualization using ImGui; 
+  - implement and maintain IK features, such as head and torso look IK;
+  - fix buggs and issues in different animation systems, from cinematics and camera
+  authoring, to IK or animation clip compression.
+
+<hr>
+
+- **Xaloc.** <small>[[source code]](https://github.com/pacojq/Xaloc) <i class='fab fa-github'/></small><br>
   A 2D game engine written in C++. It's an engine with an ECS approach, that supports
   OpenGL rendering and allows C# scripting through mono.
 
@@ -52,46 +36,63 @@ For a detailed view of my professional experience, please refer to my
 
 ## Tools Programming
 
-- **_Glacier Engine_ Animation Toolset.**<br>
-  Work on animation runtime and tooling for IO Interactive's proprietary engine,
-  [Glacier](https://ioi.dk/glacier), powering games like [HITMAN](https://ioi.dk/hitman),
-  [007 First Light](https://ioi.dk/007firstlightgame) and [Project Fantasy](https://ioi.dk/project-fantasy).
+I have professional experience developing tools for indie and AAA teams, in
+both C# and C++. The most remarkable work list as: 
 
-- **TexWriter.** <small>[[Source Code]](https://github.com/pacojq/TexWriter) <i class='fab fa-github'/></small><br>
+<hr>
+
+- **_Glacier Engine_ Animation Toolset.** <small>[[info]](https://ioi.dk/glacier) <i class='fab fa-github'/></small><br>
+  Work on animation runtime and tooling for IO Interactive's proprietary engine,
+  [Glacier](https://ioi.dk/glacier), powering games like [_HITMAN_](https://ioi.dk/hitman),
+  [_007 First Light_](https://ioi.dk/007firstlightgame) and [_Project Fantasy_](https://ioi.dk/project-fantasy).
+  My main responsibilities during my tenure at IO Interactive include:
+  - maintain existent animation tools, written in C# and WPF;
+  - work on tools to author and process animation assets of different kinds;
+  - design, implement and maintain a new curve editor for the Engine;
+  - diverse general editor and tooling work.
+<hr>
+
+- **TexWriter.** <small>[[source code]](https://github.com/pacojq/TexWriter) <i class='fab fa-github'/></small><br>
   A shader-based image genrator, built using C++, OpenGL and ImGui.
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
+<hr>
 
 - **Rosetta.**<br>
   Localization tool written in C++, using XML, OpenGL and ImGui. Used for the game
   localization process in Meteorbyte Studios releases. Provides basic functionality,
   such as basic project statistics, text search and filtering, content preview with
   different fonts and character sets, and string comparison among different languages.
+<hr>
 
 - **Buildbot Fork.**<br>
   Used Python and [Buildbot](https://buildbot.net/) to develop an internal Continuous
   Integration tool, which automates PC and PS4 builds.
+<hr>
 
 - **_Deck RX_ Toolset.**<br>
   Tile-based level editor for in-game circuits. Programmed as a standalone C# Unity
   application and outputting level data in both JSON and binary file formats.
+<hr>
 
 - **_Ignited Steel_ Toolset.**<br>
   Multiple Unity extensions and custom tools for the development of the console
   versions of the game, including: 
-    - A "sprite stack" mesh generator, which allows the preview and generation of
+    - a "sprite stack" mesh generator, which allows the preview and generation of
     sliced mesh assets from a given set of sprites,
-    - A Localization Scanner, with the ability of checking the whole asset database
+    - a Localization Scanner, with the ability of checking the whole asset database
     looking for unlocalised UI elements or miss-configured font asset references.
+<hr>
 
 - **_Songs of Steel: Hispania_ Toolset.**<br>
   Designed and implemented multiple key tools in asset creation pipeline for
   _[Songs of Steel](https://store.steampowered.com/app/2603300/Songs_of_Steel_Hispania/)_,
   a narrative strategy game. Among them:
-    - Node-based editor for Narrative Designers to structure both quests and
+    - node-based editor for Narrative Designers to structure both quests and
     dialogue assets in Unity,
-    - In-engine hexagonal tilemap editor, allowing the modification of navmeshes,
+    - in-engine hexagonal tilemap editor, allowing the modification of navmeshes,
     level terrain conditions, trigger areas and enemy spawn zones.
+<hr>
 
 - **Unity extensions.**<br>
   Vast work in custom Unity tools and extensions for the Unity Editor, to deliver
@@ -101,14 +102,62 @@ For a detailed view of my professional experience, please refer to my
 {% include carousel.html height="50" unit="%" duration="7" number="3" %}
 
 
+## Graphics & Tech Art in Unity
+
+My expertise in Unity extends to the graphics-related aspects of the engine.
+I've participated in multiple projects with responsibilities on design and implementation
+of custom Render Pipelines, as well as doing technical art work of different kinds.
+Find some examples here:
+
+<hr>
+
+- **PJRP.** <small>[[source code]](https://github.com/pacojq/PJRP/) <i class='fab fa-github'/></small><br>
+  PBR render pipeline built from scratch in C# for Unity, fully working in PC,
+  Nintendo Switch, Xbox Series X/S PlayStation 4 and PlayStation 5.
+
+{% include post-image.html src="/img/projects/pjrp/image_001_0000.webp" description="screenshot of sample scene rendered in Unity with PJRP." %}
+<hr>
+
+- **_Deck RX_.** <small>[[Steam]](https://store.steampowered.com/app/1529180/Deck_RX_The_Deckbuilding_Racing_Game/) <i class='fab fa-steam'/></small><br>
+  Developed the game as Graphics Programmer and Tech Artist. Work in this project includes:
+    - modification and extension of Unity's URP forward renderer to add deferred features,
+    - toon-like illumination and fullscreen outline effect,
+    - environment fog and lighting for every world,
+    - in-game special effects and particles
+
+{% include post-image.html src="/img/games/deck-rx/image_022_0000.png" description="screenshot of a race in <i>Deck RX</i>." %}
+<hr>
+
+- **_Ignited Steel_.** <small>[[Steam]](https://store.steampowered.com/app/1550740/Ignited_Steel_Mech_Tactics/) <i class='fab fa-steam'/></small><br>
+  Designed and implemented a "Sprite Stack" based render pipeline, which achieves
+  a pixelated 3D graphic effect using animated layers of 2D sprites.
+
+
+{% include carousel.html height="50" unit="%" duration="7" number="4" %}
+
+
+## General Graphics Programming
+
+Other graphics-related toy projects can be found on my Github page:
+
+- **Vulkan Renderer.** <small>[[source code]](https://github.com/pacojq/HelloVulkan/) <i class='fab fa-github'/></small><br>
+  Small project used to learn Vulkan.
+<hr>
+
+- **Path Tracer.** <small>[[source code]](https://github.com/pacojq/RayTracingInOneWeekend/) <i class='fab fa-github'/></small><br>
+  Simple renderer following Peter Shirley's book ["Ray Tracing in One Weekend"](https://raytracing.github.io/books/RayTracingInOneWeekend.html).
+
+{% include post-image.html src="/img/projects/path-tracer/out.png" description="screenshot my C++ software path-tracer." %}
+
+
 ## Initiatives & Community
 
 I'm a co-organizer of the [Sant Jordi Jam](https://santjordijam.github.io/), a
 non-competitive game jam with the objective of celebrating the day of
 [Sant Jordi](https://en.wikipedia.org/wiki/The_Day_of_Books_and_Roses):
- - 2025 edition: _els dracs del dia a dia_ - [itch.io](https://itch.io/jam/sant-jordi-jam-2025)
- - 2024 edition: _Llegenda i Diada_ - [itch.io](https://itch.io/jam/sant-jordi-24) and
-[socials](https://twitter.com/SantJordiJam)
+ - `2025` **_els dracs del dia a dia_** • <small>**[itch.io](https://itch.io/jam/sant-jordi-jam-2025)**</small>
+ - `2024` **_Llegenda i Diada_** • <small>**[itch.io](https://itch.io/jam/sant-jordi-24)** and
+**[socials](https://twitter.com/SantJordiJam)**</small>
 
 
 ## Talks & Appearences
@@ -143,7 +192,7 @@ lecturer and as a speaker in game conferences. Some of them list as:
 [2]: https://www.youtube.com/watch?v=3DR38INhtIs
 [1]: https://github.com/pacojq/game-feel-101
 
-{% include post-image.html src="/img/portfolio/talk-devgamm.jpg" description="Picture taken during the Panel Discussion in DevGamm Lisbon 2023." %}
+{% include post-image.html src="/img/portfolio/talk-devgamm.webp" description="Picture taken during the Panel Discussion in DevGamm Lisbon 2023." %}
 
 
 ## Bachelor Thesis
@@ -177,14 +226,14 @@ as the core system to handle the story events of the campaign.
 
 ## Other Work
 
-- **steam2xml.** <small>[[Source Code]](https://github.com/pacojq/steam2xml) <i class='fab fa-github'/></small><br>
+- **steam2xml.** <small>[[source code]](https://github.com/pacojq/steam2xml) <i class='fab fa-github'/></small><br>
   Small command line program to transform Steam achievement files from VDF to XML.
 
-- **ChromeTracing.NET.** <small>[[Source Code]](https://github.com/pacojq/ChromeTracing.NET) <i class='fab fa-github'/></small><br>
+- **ChromeTracing.NET.** <small>[[source code]](https://github.com/pacojq/ChromeTracing.NET) <i class='fab fa-github'/></small><br>
   A C# visual profiling library using Google Chrome's [tracing](https://www.chromium.org/developers/how-tos/trace-event-profiling-tool) tool.
 
-- **Seagull.** <small>[[Source Code]](https://github.com/pacojq/Seagull) <i class='fab fa-github'/></small><br>
+- **Seagull.** <small>[[source code]](https://github.com/pacojq/Seagull) <i class='fab fa-github'/></small><br>
   Toy programming language, compiling to intermediate language. Targeting MAPL Virtual Machine, an academic virtual machine built at University of Oviedo. The compiler is developed in C#, with the help of ANTLR for lexical and syntax analysis.
 
-- **DeChat.** <small>[[Source Code]](https://github.com/pacojq/dechat_en1a) <i class='fab fa-github'/></small><br>
+- **DeChat.** <small>[[source code]](https://github.com/pacojq/dechat_en1a) <i class='fab fa-github'/></small><br>
   A decentralized chat web application using [_Solid_](https://solid.inrupt.com). Developed as a team project with other students from the Software Engineering Degree at Universidad de Oviedo.

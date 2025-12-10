@@ -11,7 +11,7 @@ header-mask: 0.47
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
-            {{ post.title }}
+            {{ post.title | markdownify }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
