@@ -20,12 +20,14 @@ author:
   location         : "Barcelona, Spain"
   email            : "pacojuanquiros@gmail.com"
 
-# Collections
+# Collections:
+#    Create a corresponding folder (e.g. <source>/_staff_members) and add documents.
+#    If you’d like Jekyll to create a rendered page for each document in your collection, you can set the output key to true.
 collections:
   docs:
     output: true
     permalink: /:collection/:path/
-  games:
+  presskits:
     output: true
     permalink: /:collection/:path/
 

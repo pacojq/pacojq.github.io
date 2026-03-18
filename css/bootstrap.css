@@ -7,7 +7,7 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
 :root {
-  --font-monospace: "Fira Code", Menlo, Monaco, Consolas, "Courier New", monospace;
+  --font-monospace: "Geist Mono", "Fira Code", Menlo, Monaco, Consolas, "Courier New", monospace;
   --font-sans-serif: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
 
   --col-site0: #E49AB0;
@@ -278,6 +278,13 @@ th {
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
+}
+@font-face {
+    font-family: "Geist Mono";
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url(/fonts/geistmono.woff2) format("woff2");
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
