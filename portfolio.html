@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: default
 title: portfolio
 description: ""
 permalink: /portfolio/
 header-img: "img/projects/pjrp/image_001_0000.webp"
-header-mask: 0.12
+header-mask: 0.24
 
 carousels:
   - images:
@@ -28,7 +28,51 @@ carousels:
     - image: /img/portfolio/custom-srp-01.webp
 ---
 
-<div class="post-container">
-  {% capture portfolio %}{% include portfolio.md %}{% endcapture %}
-  {{ portfolio | markdownify }}
+<!-- Page Header -->
+{% include intro-header.html type='page' %}
+
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+
+    <!-- PostList Container -->
+    <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12
+        col-xs-12 postlist-container">
+        
+      <div class="post-container">
+        {% capture portfolio %}{% include portfolio.md %}{% endcapture %}
+        {{ portfolio | markdownify }}
+      </div>
+    </div>
+
+    <!-- Side Catalog Container -->
+    <div class="
+        col-lg-2 col-lg-offset-0
+        visible-lg-block
+        sidebar-container
+        catalog-container">
+      <div class="side-catalog">
+
+        <!-- short about -->
+        <hr class="hidden-sm hidden-xs">
+        <h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
+        <div class="short-about">
+          {% if site.sidebar-avatar %}
+          <img src="{{site.sidebar-avatar}}" style="width:100%" />
+          {% endif %}
+          <p style="margin-bottom: 4px; font-weight: bold;">Paco Juan</p>
+          {% if site.sidebar-about-description %}
+          <p style="font-size: 0.9em;">{{site.sidebar-about-description}}</p>
+          {% endif %}
+        </div>
+
+        <hr class="hidden-sm hidden-xs">
+        <h5>
+            <a class="catalog-toggle" href="#">CONTENTS</a>
+        </h5>
+        <ul class="catalog-body"></ul>
+      </div>
+    </div>
+
+  </div>
 </div>

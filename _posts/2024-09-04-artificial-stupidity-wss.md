@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "artificial stupidity in _World Soccer Strikers '91_"
+title: "artificial stupidity in <i>World Soccer Strikers '91</i>"
 subtitle: "designing a soccer AI that simply does the trick"
 post_type: "post"
 seoTitle: "srtificial stupidity in World Soccer Strikers 91"

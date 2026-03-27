@@ -4416,7 +4416,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: var(--col-site1);
 }
 .navbar-default .navbar-nav > li > a {
-  color: var(--col-site3);
+  color: var(--col-site4);
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
