@@ -8,7 +8,7 @@
 
 :root {
   --font-monospace: "Geist Mono", "Fira Code", Menlo, Monaco, Consolas, "Courier New", monospace;
-  --font-sans-serif: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  --font-sans-serif: "Source Sans 3", Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
 
   --col-site0: #E49AB0;
   --col-site1: #EA638C;
@@ -279,6 +279,8 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+
+/* monospace titles */
 @font-face {
     font-family: "Geist Mono";
     font-style: normal;
@@ -286,6 +288,26 @@ th {
     font-display: swap;
     src: url(/fonts/geistmono.woff2) format("woff2");
 }
+
+/* content */
+@font-face {
+    font-family: "Source Sans 3";
+    font-style: normal;
+    font-weight: 200 900;
+    font-display: swap;
+    size-adjust: 107%;
+    src: url(/fonts/SourceSans3-VariableFont_wght.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Source Sans 3";
+    font-style: italic;
+    font-weight: 200 900;
+    font-display: swap;
+    size-adjust: 107%;
+    src: url(/fonts/SourceSans3-Italic-VariableFont_wght.ttf) format("truetype");
+}
+
+
 @font-face {
   font-family: 'Glyphicons Halflings';
 

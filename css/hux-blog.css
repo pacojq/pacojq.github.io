@@ -1,6 +1,6 @@
 :root {
   --font-monospace: "Geist Mono", "Fira Code", Menlo, Monaco, Consolas, "Courier New", monospace;
-  --font-sans-serif: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  --font-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
 
   --col-site0: #E49AB0;
   --col-site1: #EA638C;
@@ -701,6 +701,7 @@ h6 {
 h4 {
   font-size: 21px;
 }
+
 a {
   color: var(--col-site3);
 }
@@ -712,6 +713,10 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
+a[href^="mailto:"]:after, a[target=_blank]:after {
+   content: " ↗";
+}
+
 article {
   overflow: hidden;
 }
@@ -790,13 +795,19 @@ samp {
 .postlist-container {
   margin-bottom: 15px;
 }
+
 .post-container a {
   color: var(--col-site1);
+  text-decoration: underline;
 }
 .post-container a:hover,
 .post-container a:focus {
   color: var(--col-site0);
 }
+.post-container a:after {
+  content: " ↗";
+}
+
 .post-container h1,
 .post-container h2,
 .post-container h3,
@@ -1190,7 +1201,7 @@ samp {
 .intro-header .site-heading h1,
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 48px;
   color: var(--col-site2);
   text-shadow: 3px 3px 4px rgb(0, 0, 0, 0.3);
 }
@@ -1212,7 +1223,7 @@ samp {
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 80px;
+    font-size: 64px;
     color: var(--col-site2);
   }
 }
@@ -1253,7 +1264,7 @@ samp {
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
-    font-size: 55px;
+    font-size: 48px;
     color: var(--col-site2);
   }
   .intro-header .post-heading .subheading {
@@ -1751,55 +1762,6 @@ img::-moz-selection {
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
 }
-.MathJax_SVG_Display {
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-}
 .no-scroll {
   overflow-y: hidden;
-}
-
-#noise-layer {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: transparent url("/img/misc/noise.png") repeat 0 0;
-  background-repeat: repeat;
-  animation: 700ms infinite noise;
-  pointer-events: none;
-  opacity: 0.65;
-}
-
-@keyframes noise {
-  0%,
-  100% {
-    background-position: 0 0;
-  }
-  10% {
-    background-position: -5% -10%;
-  }
-  20% {
-    background-position: -15% 5%;
-  }
-  30% {
-    background-position: 7% -25%;
-  }
-  40% {
-    background-position: 20% 25%;
-  }
-  50% {
-    background-position: -25% 10%;
-  }
-  60% {
-    background-position: 15% 5%;
-  }
-  70% {
-    background-position: 0 15%;
-  }
-  80% {
-    background-position: 25% 35%;
-  }
-  90% {
-    background-position: -10% 10%;
-  }
 }
