@@ -1,43 +1,35 @@
 ---
 title: games
-layout: default
+layout: page
 permalink: /games/
 header-img: "img/games-bg.webp"
 header-mask: 0.63
 ---
 
-<!-- Page Header -->
-{% include intro-header.html type='page' short=false %}
+{%- assign _games = site.posts | where: "post_type", "game" -%}
+{%- assign _games = _games | reverse -%}
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-
-		<!-- Games Container -->
-		<div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12
-			col-xs-12">
-
-			<h2>games</h2>
-			<hr>
-			<p>here's the list of all commercial games I've worked on:</p>
-
-			<!-- Selecting posts that have `post_type` defined and set to `game` -->
-			{%- assign _games = site.posts | where: "post_type", "game" -%}
-			{%- assign _games = _games | reverse -%}
-
-			{% include game-list.html games=_games %}
-		</div>
-
-		<!-- Sidebar Container -->
-		<div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12
-			col-xs-12 sidebar-container">
-
-			<!-- Short About -->
-			{% include short-about.html %}
-			<hr>
-			<!-- Featured Tags -->
-			{% include featured-tags.html %}
-
-		</div>
-	</div>
+<div class="mini-game-list a">
+    {%- for _project in _games -%}
+    <section class="game-preview item">
+        <a href="{{ _project.url | prepend: site.baseurl }}" target="_blank" class="game-preview">
+            {% if _project.icon_img %}
+            <div class="game-banner">
+                <img src="{{ _project.icon_img }}" />
+            </div>
+            {% endif %}
+            <div class="game-info">
+                <h2 class="game-title">
+                    <u>{{ _project.title }} <small>↗</small></u>
+                </h2>
+                {% if _project.description %}
+                <h3 class="game-subtitle">
+                    {{ _project.description }}
+                </h3>
+                {% endif %}
+            </div>
+        </a>
+    </section>
+    {% endfor %}
 </div>
+

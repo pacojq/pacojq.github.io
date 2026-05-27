@@ -6,6 +6,69 @@ permalink: /portfolio/
 header-img: "img/projects/pjrp/image_001_0000.webp"
 header-mask: 0.24
 
+
+
+talks:
+  - title: "won't somebody please think of the tools"
+    locations:
+      - name: "Guadalindie"
+        url: "https://guadalindie.com/"
+        place: "Málaga"
+        date: "May 2024"
+    links:
+      - name: "ES"
+        url: "https://www.youtube.com/watch?v=voqM5-t1ns8"
+
+  - title: "game postmortem: alexandria"
+    locations:
+      - name: "game devs Asturias"
+        url: "https://www.instagram.com/gamedevs.asturias/"
+        date: "Aug. 2025"
+      - name: "BCN Game Creators"
+        url: "https://bsky.app/profile/bcngamecreators.bsky.social"
+        date: "Feb. 2024"
+
+  - title: "PANEL DISCUSSION: Challenges and Triumphs: A Deep Dive into AAA Game Development"
+    locations:
+      - name: "DevGamm Lisbon"
+        url: "https://devgamm.com/"
+        date: "Nov. 2023"
+
+  - title: "Hey, mira, una charla de programación"
+    locations:
+      - name: "IndieDevDay"
+        url: "https://www.indiedevday.es/en/"
+        place: "Barcelona"
+        date: "Oct. 2022"
+    links:
+      - name: "ES"
+        url: "https://www.youtube.com/watch?v=WzRlHjTWBAk"
+
+  - title: "Technical Art in Video Games"
+    locations:
+      - name: "EII Tech Fest"
+        place: "University of Oviedo"
+        date: "Feb. 2022"
+
+  - title: "Intro to Indie Game Development - Meteorbyte Studios' case"
+    locations:
+      - name: "EII Tech Fest"
+        place: "University of Oviedo"
+        date: "Feb. 2021"
+    links:
+      - name: "ES"
+        url: "https://www.youtube.com/watch?v=3DR38INhtIs"
+
+  - title: "Game Feel 101"
+    locations:
+      - name: "University of Oviedo"
+        date: "Fall 2019"
+    links:
+      - name: "interactive presentation"
+        url: "https://github.com/pacojq/game-feel-101"
+        icon: "fab fa-github"
+
+
 carousels:
   - images:
     - image: /img/projects/texwriter/example.png
@@ -38,7 +101,6 @@ carousels:
     <!-- PostList Container -->
     <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12
         col-xs-12 postlist-container">
-        
       <div class="post-container">
         {% capture portfolio %}{% include portfolio.md %}{% endcapture %}
         {{ portfolio | markdownify }}
@@ -55,10 +117,12 @@ carousels:
 
         <!-- short about -->
         <hr class="hidden-sm hidden-xs">
-        <h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
+        <h5 style="padding: 0px;">
+          <a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a>
+        </h5>
         <div class="short-about">
           {% if site.sidebar-avatar %}
-          <img src="{{site.sidebar-avatar}}" style="width:100%" />
+          <img src="{{site.sidebar-avatar}}" style="width:90%;" />
           {% endif %}
           <p style="margin-bottom: 4px; font-weight: bold;">Paco Juan</p>
           {% if site.sidebar-about-description %}

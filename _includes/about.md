@@ -13,7 +13,7 @@ thoughts that I post from time to time.
  - professional hoodie wearer; coffee drinking medalist. hobbyist game engine programmer.
  - the first two games I played were *Age of Empires* and *PC Basket 4.0 (1996)*.
 
-{% include post-image.html src="/img/about.jpg" height="340px" description="this is how I look like - <i>courtesy of DevGamm's photographer.</i>" %}
+{% include post-image.html src="/img/about.jpg" max-height="340px" description="this is how I look like - <i>courtesy of DevGamm's photographer.</i>" %}
 
 #### socials
 

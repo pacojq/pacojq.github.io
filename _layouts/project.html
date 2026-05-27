@@ -1,9 +1,13 @@
 ---
 layout: default
+featured_tags: false
+share: false
+toc: false
+hidden: true
 ---
 
 <!-- Page Header -->
-{% include intro-header.html type='page' %}
+{% include intro-header.html type='page' hide_title='true' %}
 
 <!-- Main Content -->
 <div class="container">
@@ -13,13 +17,8 @@ layout: default
         <!-- PostList Container -->
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1
       postlist-container">
+            <h1>{{ page.title }}</h1>
             {{ content }}
-        </div>
-        <!-- Sidebar Container -->
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1
-      sidebar-container">
-            <!-- Featured Tags -->
-            {% include featured-tags.html %}
         </div>
         {% else %}
 
@@ -27,14 +26,12 @@ layout: default
         <!-- PostList Container -->
         <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12
       col-xs-12 postlist-container">
+            <h1>{{ page.title }}</h1>
             {{ content }}
         </div>
         <!-- Sidebar Container -->
         <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-12
       col-xs-12 sidebar-container">
-            <!-- Featured Tags -->
-            {% include featured-tags.html %}
-
             <!-- Short About -->
             {% include short-about.html %}
         </div>

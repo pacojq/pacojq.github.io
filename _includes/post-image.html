@@ -4,7 +4,7 @@
 {% assign _description = include.description %}
 {% assign _height = include.height %}
 {% if _height %}
-<div class="post-container" style="height: {{ _height }};">
+<div class="post-container" style="max-height: {{ _height }};">
 {% else %}
 <div class="post-container" style="height:auto;">
 {% endif %}
