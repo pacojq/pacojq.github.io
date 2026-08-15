@@ -16,13 +16,29 @@ featured_tags: false
 > - **Release Date:** 2nd half 2026
 > - **Platform:** Steam
 
+_Dungeon's Gambit_ is a _real-turn_ chess dungeon crawler that **mixes real-time** environments with **turn-based** combat.
+Customize your pawn, unlock new skills to find powerful synergies, defeat challenging bosses, and fight your way through the Black Castle to take down the Throne.
 
-# description
+----
 
-_Dungeon's Gambit_ is an **incremental-style chessboard crawler**, that **mixes real-time and turn-based** action. 
+## game description
 
-Unlock new abilities and find the best synergies to find your way through procedurally generated levels,
-and fight different chess-inspired enemies and bosses, each with their own unique patterns and abilities.
+_Dungeon's Gambit_ casts you in the role of the last Pawn of its keen, venturing into the Black Castle with a thirst of revenge for the slaughter of its folk.
+
+Customize your pawn, unlock new skills to find powerful synergies, defeat challenging bosses, and fight your way through the dungeon in this _real-turn_ chess action game, that **mixes real-time** environments with **turn-based** combat.
+
+- **TURNS × REAL-TIME.** An innovative combination of turn-based movement in a real-time environment will challenge you to find the best strategy to survive each encounter.
+Strike all enemies from the very first turn, play it stealthy and set traps… every room is its own puzzle!
+
+- **BUILD YOUR PAWN.** Unlock new pieces for your Pawn, all with their own unique abilities and perks, and combine them to find the synergies that better fit your play-style.
+
+- **EXPLORE THE DUNGEON.** Discover 4 different environments that build upon and add twists to the core mechanics of the game, each with their own unique enemies, features and final boss.
+
+- **OTHER FEATURES.** 
+  - simple but incredibly deep mechanics,
+  - customizable pawn builds, with +370 different piece combinations,
+  - dozens of skills to discover and combine.
+
 
 
 <br>
@@ -53,7 +69,7 @@ Find below a recorded gameplay snippet of the game, along with some screenshots.
 
 <div class="post-container" style="height:auto;">
   <video controls width="100%" >
-    <source src="/img/presskits/dungeons-gambit/Movie_005.webm" type="video/webm" />
+    <source src="/img/presskits/dungeons-gambit/Movie_011.webm" type="video/webm" />
     <!--
     <source src="/img/presskits/dungeons-gambit/Movie_005.mp4" type="video/mp4" />
     -->
@@ -64,16 +80,16 @@ Find below a recorded gameplay snippet of the game, along with some screenshots.
   <table>
     <tbody>
       <tr>
-        <td>{% include post-image.html src="/img/presskits/dungeons-gambit/capture_01.jpg" description="[[open in high resolution](/img/presskits/dungeons-gambit/capture_01.jpg)]" %}</td>
-        <td>{% include post-image.html src="/img/presskits/dungeons-gambit/capture_02.jpg" description="[[open in high resolution](/img/presskits/dungeons-gambit/capture_02.jpg)]" %}</td>
+        <td>{% include post-image.html src="/img/presskits/dungeons-gambit/capture_01.png" description="[[open in high resolution](/img/presskits/dungeons-gambit/capture_01.png)]" %}</td>
+        <td>{% include post-image.html src="/img/presskits/dungeons-gambit/capture_02.png" description="[[open in high resolution](/img/presskits/dungeons-gambit/capture_02.png)]" %}</td>
       </tr>
       <tr>
-        <td>{% include post-image.html src="/img/presskits/dungeons-gambit/capture_03.jpg" description="[[open in high resolution](/img/presskits/dungeons-gambit/capture_03.jpg)]" %}</td>
-        <td>{% include post-image.html src="/img/presskits/dungeons-gambit/capture_04.jpg" description="[[open in high resolution](/img/presskits/dungeons-gambit/capture_04.jpg)]" %}</td>
+        <td>{% include post-image.html src="/img/presskits/dungeons-gambit/capture_03.png" description="[[open in high resolution](/img/presskits/dungeons-gambit/capture_03.png)]" %}</td>
+        <td>{% include post-image.html src="/img/presskits/dungeons-gambit/capture_04.png" description="[[open in high resolution](/img/presskits/dungeons-gambit/capture_04.png)]" %}</td>
       </tr>
       <tr>
-        <td>{% include post-image.html src="/img/presskits/dungeons-gambit/capture_05.jpg" description="[[open in high resolution](/img/presskits/dungeons-gambit/capture_05.jpg)]" %}</td>
-        <td>{% include post-image.html src="/img/presskits/dungeons-gambit/capture_06.jpg" description="[[open in high resolution](/img/presskits/dungeons-gambit/capture_06.jpg)]" %}</td>
+        <td>{% include post-image.html src="/img/presskits/dungeons-gambit/capture_05.png" description="[[open in high resolution](/img/presskits/dungeons-gambit/capture_05.png)]" %}</td>
+        <td>{% include post-image.html src="/img/presskits/dungeons-gambit/capture_06.png" description="[[open in high resolution](/img/presskits/dungeons-gambit/capture_06.png)]" %}</td>
       </tr>
     </tbody>
   </table>
