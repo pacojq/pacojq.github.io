@@ -23,7 +23,7 @@ Customize your pawn, unlock new skills to find powerful synergies, defeat challe
 
 ## game description
 
-_Dungeon's Gambit_ casts you in the role of the last Pawn of its keen, venturing into the Black Castle with a thirst of revenge for the slaughter of its folk.
+_Dungeon's Gambit_ casts you in the role of the last Pawn of its kin, venturing into the Black Castle with a thirst of revenge for the slaughter of its folk.
 
 Customize your pawn, unlock new skills to find powerful synergies, defeat challenging bosses, and fight your way through the dungeon in this _real-turn_ chess action game, that **mixes real-time** environments with **turn-based** combat.
 
